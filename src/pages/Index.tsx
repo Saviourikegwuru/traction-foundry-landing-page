@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import PainSection from "@/components/PainSection";
 import OutcomeSection from "@/components/OutcomeSection";
 import ProductSection from "@/components/ProductSection";
+import PricingSection from "@/components/PricingSection";
 import StickyNav from "@/components/StickyNav";
 
 const Index = () => {
@@ -13,6 +14,7 @@ const Index = () => {
       <PainSection />
       <OutcomeSection />
       <ProductSection />
+      <PricingSection />
       <StickyNav />
     </div>
   );

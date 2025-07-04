@@ -12,13 +12,34 @@ const Header = () => {
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#process" className="text-hero-foreground/80 hover:text-hero-foreground transition-colors">
+          <a 
+            href="#process" 
+            className="text-hero-foreground/80 hover:text-hero-foreground transition-colors"
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('process')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
             Process
           </a>
-          <a href="#testimonials" className="text-hero-foreground/80 hover:text-hero-foreground transition-colors">
+          <a 
+            href="#results" 
+            className="text-hero-foreground/80 hover:text-hero-foreground transition-colors"
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('results')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
             Results
           </a>
-          <a href="#pricing" className="text-hero-foreground/80 hover:text-hero-foreground transition-colors">
+          <a 
+            href="#pricing" 
+            className="text-hero-foreground/80 hover:text-hero-foreground transition-colors"
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
             Pricing
           </a>
         </nav>
