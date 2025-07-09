@@ -100,11 +100,15 @@ const ProductSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Button variant="cta" size="xl">
-              Schedule Strategy Call
+            <Button variant="cta" size="xl" asChild>
+              <a href="https://calendly.com/growth-engine/strategy-call" target="_blank" rel="noopener noreferrer">
+                Schedule Strategy Call
+              </a>
             </Button>
-            <Button variant="outline" size="xl">
-              Download Growth Framework
+            <Button variant="outline" size="xl" asChild>
+              <a href="https://growth-engine.com/framework.pdf" target="_blank" rel="noopener noreferrer">
+                Download Growth Framework
+              </a>
             </Button>
           </div>
 

@@ -52,8 +52,10 @@ const OutcomeSection = () => {
             and how to turn <span className="font-semibold text-primary">proof into pipeline.</span>
           </p>
           
-          <Button variant="cta" size="xl">
-            Start Building Pipeline
+          <Button variant="cta" size="xl" asChild>
+            <a href="https://calendly.com/growth-engine/strategy-call" target="_blank" rel="noopener noreferrer">
+              Start Building Pipeline
+            </a>
           </Button>
         </div>
       </div>

@@ -26,8 +26,10 @@ const StickyNav = () => {
           <span className="text-hero-foreground font-medium hidden sm:block">
             Ready to grow?
           </span>
-          <Button variant="cta" size="default" className="rounded-full">
-            Get Growth Plan
+          <Button variant="cta" size="default" className="rounded-full" asChild>
+            <a href="https://calendly.com/growth-engine/strategy-call" target="_blank" rel="noopener noreferrer">
+              Get Growth Plan
+            </a>
           </Button>
         </div>
       </div>
