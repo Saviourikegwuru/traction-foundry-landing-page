@@ -30,13 +30,13 @@ const Header = () => {
         </nav>
 
         <Button variant="cta" size="lg" className="hidden md:inline-flex" asChild>
-          <a href="https://calendly.com/growth-engine/strategy-call" target="_blank" rel="noopener noreferrer">
+          <a href="https://calendly.com/saviourikegwuru/30-minutes-meeting" target="_blank" rel="noopener noreferrer">
             Get Growth Plan
           </a>
         </Button>
         
         <Button variant="cta" size="default" className="md:hidden" asChild>
-          <a href="https://calendly.com/growth-engine/strategy-call" target="_blank" rel="noopener noreferrer">
+          <a href="https://calendly.com/saviourikegwuru/30-minutes-meeting" target="_blank" rel="noopener noreferrer">
             Get Started
           </a>
         </Button>
