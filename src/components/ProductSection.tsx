@@ -106,7 +106,7 @@ const ProductSection = () => {
               </a>
             </Button>
             <Button variant="outline" size="xl" asChild>
-              <a href="https://growth-engine.com/framework.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="https://docs.google.com/document/d/1geoXGwXJMB3ZXrWgl9Sf1rmmEEGKX6wh-wca3o7NRVY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                 Download Growth Framework
               </a>
             </Button>
