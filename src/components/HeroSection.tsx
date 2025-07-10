@@ -52,12 +52,12 @@ const HeroSection = () => {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Button variant="hero" size="xl" className="flex-1 sm:flex-none" asChild>
-                <a href="https://calendly.com/growth-engine/strategy-call" target="_blank" rel="noopener noreferrer">
+                <a href="https://calendly.com/saviourikegwuru/30-minutes-meeting" target="_blank" rel="noopener noreferrer">
                   Get My Custom Growth Plan
                 </a>
               </Button>
               <Button variant="outline" size="xl" className="flex-1 sm:flex-none" asChild>
-                <a href="https://www.youtube.com/watch?v=your-video-id" target="_blank" rel="noopener noreferrer">
+                <a href="https://youtu.be/f90INrBLjPM?si=iddOkrgsd-kCZ5oN" target="_blank" rel="noopener noreferrer">
                   Watch Explainer Video
                 </a>
               </Button>
